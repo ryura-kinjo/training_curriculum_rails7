@@ -37,7 +37,7 @@ class CalendarsController < ApplicationController
 
       wday_num = @todays_date.wday + x
 
-      if wday_num >= 6
+      if wday_num >= 7
         wday_num = wday_num - 7
       end
 
